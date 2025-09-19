@@ -1,16 +1,52 @@
 ---
-
 ---
-
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thomas Kifőzde</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        text-align: center;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 2rem;
+      }
+      .container {
+        max-width: 600px;
+        margin: auto;
+        padding: 2rem;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      }
+      h1 {
+        color: #333;
+        font-size: 2.5rem;
+        margin-bottom: 0.5rem;
+      }
+      .price {
+        font-size: 1.5rem;
+        color: #555;
+        margin-bottom: 1.5rem;
+      }
+      .menu-item img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Thomas Kifőzde</h1>
+      <p class="price">7999 Ft + örök respekt</p>
+      <div class="menu-item">
+        <img src="/turógombóc.jpg" alt="A delicious turógombóc">
+      </div>
+    </div>
+  </body>
 </html>
